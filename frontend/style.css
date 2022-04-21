@@ -1,0 +1,32 @@
+body{
+    background-color: #382F26;
+}
+
+header{
+    font-family: 'Libre Baskerville', serif;
+    color: #CC8F46;
+    text-decoration: none;
+    color: #CC8F46
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+
+.cim{
+    font-size: 130px;
+}
