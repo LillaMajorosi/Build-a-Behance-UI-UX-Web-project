@@ -1,12 +1,13 @@
 body{
     background-color: #382F26;
+    margin: 50px 80px 50px 80px;
 }
 
 header{
     font-family: 'Libre Baskerville', serif;
     color: #CC8F46;
     text-decoration: none;
-    color: #CC8F46
+
 }
 
 .menu{
@@ -28,5 +29,25 @@ li {
   }
 
 .cim{
+    font-size: 130px;
+    padding-top: 20px;
+}
+
+.line{
+    padding-bottom: 25px;
+}
+
+.vg{
+    padding-top: 20px;
+}
+
+.museum{
+    color: antiquewhite;
+    font-size: 130px;
+    padding-top: 90px;
+}
+
+.history{
+    color:#CC8F46;
     font-size: 130px;
 }
