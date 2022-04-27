@@ -1,13 +1,18 @@
 body{
     background-color: #382F26;
-    margin: 50px 80px 50px 80px;
+    margin: 50px 150px 50px 150px;
 }
 
 header{
     font-family: 'Libre Baskerville', serif;
     color: #CC8F46;
     text-decoration: none;
+    display: inline-flex;
+}
 
+#bm{
+    display: flex;
+    justify-content: flex-start;
 }
 
 .menu{
@@ -15,6 +20,7 @@ header{
     justify-content: flex-end;
     flex-direction: row;
     font-size: 16px;
+    padding-left: 580px;
 }
 
 ul {
@@ -37,8 +43,14 @@ li {
     padding-bottom: 25px;
 }
 
-.vg{
-    padding-top: 20px;
+.art_gallery{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.first_png{
+    padding-top: 55px;
+    padding-left: 55px;
 }
 
 .museum{
@@ -52,11 +64,99 @@ li {
     font-size: 130px;
 }
 
-.museum-history {
+.first-museum-history {
     padding-top: 70px;
     font-family: 'News Cycle', sans-serif;
     color: antiquewhite;
     font-size: 16px;
 
+    display: flex;
+    justify-content: space-between;
 }
 
+.second-museum-history {
+    font-family: 'News Cycle', sans-serif;
+    color: antiquewhite;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-mh-padding{
+    padding-top: 45px;
+}
+
+#upe{
+    padding-left: 170px;
+    padding-bottom: 50px;
+}
+
+.upc-events{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sat-list{
+    color: antiquewhite;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+
+.program{
+    font-size: 30px;
+    color: #CC8F46;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 10px;
+    border-bottom: #CC8F46;
+    border-bottom-style: solid;
+    margin-bottom: 50px;
+    
+}
+
+.icon {
+    position: absolute;
+    top: 75%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 50%;
+    height: 2px;
+    background-color: #CC8F46;
+    opacity: 80%;
+  }
+  
+  .arrow::after, .arrow::before {
+    content: '';
+    position: absolute;
+    width: 35%;
+    height: 2px;
+    right: -3px;
+    background-color: #CC8F46;
+    opacity: 80%;
+  }
+  
+  .arrow::after {
+    top: -4px;
+    transform: rotate(39deg);
+  }
+  
+  .arrow::before {
+    top: 4px;
+    transform: rotate(-39deg);
+  }
+
+  #free{
+      color: antiquewhite;
+      font-family: 'Libre Baskerville', serif;
+      opacity: 60%;
+  }
