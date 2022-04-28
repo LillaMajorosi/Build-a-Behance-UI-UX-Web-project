@@ -34,7 +34,7 @@ li {
     padding: 0 20px 0 20px;
   }
 
-.cim{
+.birmingham{
     font-size: 130px;
     padding-top: 20px;
 }
@@ -160,3 +160,47 @@ li {
       font-family: 'Libre Baskerville', serif;
       opacity: 60%;
   }
+
+  .sat-vg{
+    position: relative;
+    left: 78%;
+  }
+
+.first-beauty{
+    padding-top: 70px;
+}
+
+.eight-picture-title{
+    color: #CC8F46;
+    font-family: 'News Cycle', sans-serif;
+    padding-top: 20px;
+    padding-left: 347px;
+    margin-bottom: 90px;
+}
+
+.nine-picture-title{
+    color: #CC8F46;
+    font-family: 'News Cycle', sans-serif;
+    padding-top: 20px;
+}
+
+#second-beauty-padding{
+    padding-top: 130px;
+}
+
+.opening{
+    color: antiquewhite;
+    font-size: 130px;
+    margin-bottom: 70px;
+}
+
+.contacts{
+    font-size: 15px;
+    color: #CC8F46;
+    position: relative;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 10px;
+    border-bottom: #CC8F46;
+    border-bottom-style: solid;
+    margin-bottom: 50px;
+}
